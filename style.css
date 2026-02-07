@@ -1,0 +1,100 @@
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url('haijiprofil.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    }
+
+    .profil img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .profil h1{
+        color: pink;
+        background-color: black;
+        padding: 5px;
+        border-radius: 8px;
+        font-size: 2rem;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+        font-size: 0.7rem;
+    }
+
+    .social h1{
+    color: aliceblue;
+     font-size: 2rem;
+    }
+
+    .social a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* BUTTON */
+    .sosmed{
+        background-color: pink;
+        width: 250px;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 6px;
+        padding: 3px;
+    }
+
+    .sosmed i{
+        position: absolute;
+        left: 8px;
+        font-size: 1.2rem;
+    }
+
+    .sosmed:hover{
+        background-color: palevioletred;
+        color: aliceblue;
+        transition: 0.5s;
+    }
+
+    /* FONT */
+    .fontsaya{
+        font-family: "Playwrite NZ Basic", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+   
